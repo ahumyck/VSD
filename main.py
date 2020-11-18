@@ -4,7 +4,6 @@ from analyzer import FramesSliceSearcherMSE, FramesSliceSearcherSSIM
 import time
 import numpy as np
 
-
 path_to_video = "resources/video/video.mp4"
 
 frame_size = (600, 800)
