@@ -43,6 +43,7 @@ class FramesSliceSearcherSSIM:
         indecies = np.where(scores < mean - 3 * var)
         return indecies, scores[indecies]
 
+
 class FramesSliceSearcherMSE:
     def __init__(self, video_name, fps = 60, frame_size = (1920, 1080)):  #создание объекта поиска склеек на видео методом MSE
         self.__video_name = video_name
