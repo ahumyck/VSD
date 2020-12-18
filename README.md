@@ -1,3 +1,3 @@
-# VSD
+# VCD
 
-Video Slice Detector
+Video Cut Detector
